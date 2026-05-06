@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0a0014;
+  color: #fff;
+}
+
+.starfield {
+  background:
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 30% 70%, rgba(200,180,255,0.2), transparent),
+    radial-gradient(1px 1px at 60% 30%, rgba(255,215,0,0.2), transparent),
+    radial-gradient(1px 1px at 80% 60%, rgba(200,180,255,0.15), transparent),
+    radial-gradient(1px 1px at 40% 90%, rgba(255,255,255,0.2), transparent),
+    radial-gradient(1px 1px at 90% 10%, rgba(255,215,0,0.15), transparent),
+    radial-gradient(1px 1px at 20% 50%, rgba(200,180,255,0.25), transparent),
+    radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,0.2), transparent),
+    linear-gradient(180deg, #1a0533 0%, #2d1060 40%, #0d001a 100%);
+}
