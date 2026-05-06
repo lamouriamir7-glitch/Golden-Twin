@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "sonner";
-import Index from "@/pages/Index";
+import index from "@/pages/index";
 import Auth from "@/pages/Auth";
 import Fingerprint from "@/pages/Fingerprint";
 
